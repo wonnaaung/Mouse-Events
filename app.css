@@ -1,0 +1,12 @@
+.v{
+    color: rgb(188, 84, 230);
+    padding-left: 40%;
+    font-size: 60px;
+}
+
+.box{
+    background-color: aqua;
+    padding: 100px;
+    display: inline-block;
+    margin: 30px;
+}

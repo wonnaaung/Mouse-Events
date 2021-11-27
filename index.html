@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE_3</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" type="image/x-icon" href="/man_u.png">
+</head>
+<body>
+    <H1 class="v">VUE_3</H1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id=app>
+        <div v-if="showBook">
+            <div v-for="book in books">
+            <p>Book Name-{{ books.title }}</p>
+            <p>Auther-{{ books.auther }}</p>
+            <p>Date-{{ books.date }}</p>
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <button @click="showBook=!showBook">
+            <span v-if="showBook">Hide Book</span>
+            <span v-if="!showBook">Show Book</span>
+        </button>
+        <br>
+
+
+        <div class="box" > Mouse Over </div>
+        <div class="box" > Mouse Leave </div>
+        <div class="box" > Double Click </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="app.js"></script>
+</body>
+</html>
