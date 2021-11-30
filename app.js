@@ -22,6 +22,11 @@ const app=Vue.createApp({
 
         }
     },
+    method:{
+        mouseOver(){
+            console.log("mouse over is working")
+        },
+    }
 
 });
 app.mount('#app');
