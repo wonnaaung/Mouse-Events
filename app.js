@@ -24,7 +24,13 @@ const app=Vue.createApp({
     },
     method:{
         mouseOver(){
-            console.log("mouse over is working")
+            console.log("mouse over is working");
+        },
+        mouseLeave(){
+            console.log("mouse leave is working");
+        },
+        mouseDouble(){
+            console.log("mouse Double is working");
         },
     }
 
