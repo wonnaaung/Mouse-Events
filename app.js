@@ -22,7 +22,7 @@ const app=Vue.createApp({
 
         }
     },
-    method:{
+    methods:{
         mouseOver(){
             console.log("mouse over is working");
         },
